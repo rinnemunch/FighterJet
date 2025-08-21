@@ -1532,3 +1532,513 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.08.21-18.17.58:979][862]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 655.893921
 [2025.08.21-18.17.59:979][865]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.08.21-18.17.59:979][865]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 656.560791, Update Interval: 328.210083
+[2025.08.21-18.19.12:318][ 82]LogHttp: Warning: 00000780FDEC6200: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2025.08.21-18.19.12:319][ 82]LogHttp: Warning: 00000780FDEC6200: libcurl info message cache 0 (Found bundle for host: 0x7808c8402a0 [serially])
+[2025.08.21-18.19.12:319][ 82]LogHttp: Warning: 00000780FDEC6200: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2025.08.21-18.19.12:319][ 82]LogHttp: Warning: 00000780FDEC6200: libcurl info message cache 2 (We are completely uploaded and fine)
+[2025.08.21-18.19.12:319][ 82]LogHttp: Warning: 00000780FDEC6200: libcurl info message cache 3 (Recv failure: Connection was reset)
+[2025.08.21-18.19.12:319][ 82]LogHttp: Warning: 00000780FDEC6200: libcurl info message cache 4 (OpenSSL SSL_read: Connection was reset, errno 10054)
+[2025.08.21-18.19.12:319][ 82]LogHttp: Warning: 00000780FDEC6200: libcurl info message cache 5 (Connection died, retrying a fresh connect (retry count: 1))
+[2025.08.21-18.19.12:319][ 82]LogHttp: Warning: 00000780FDEC6200: libcurl info message cache 6 (state.rewindbeforesend = TRUE)
+[2025.08.21-18.19.12:319][ 82]LogHttp: Warning: 00000780FDEC6200: libcurl info message cache 7 (Closing connection)
+[2025.08.21-18.19.12:319][ 82]LogHttp: Warning: 00000780FDEC6200: libcurl info message cache 8 (Recv failure: Connection was reset)
+[2025.08.21-18.19.12:319][ 82]LogHttp: Warning: 00000780FDEC6200: libcurl info message cache 9 (Send failure: Connection was reset)
+[2025.08.21-18.19.12:319][ 82]LogHttp: Warning: 00000780FDEC6200: libcurl info message cache 10 (Recv failure: Connection was reset)
+[2025.08.21-18.19.12:319][ 82]LogHttp: Warning: 00000780FDEC6200: libcurl info message cache 11 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B73C7BAE6-4828-384D-10AE-EA9C6F5062AB%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.5.4-40574608%2B%2B%2BUE5%2BRelease-5.5&UserID=4301ae3746a2d0658f1ea7896f47e70a%7Cc125afadbc1d4a4ca07801b3c9fe31d3%7C6fc62dfd-3999-4e0c-9721-f0aa7ad24bd8&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2025.08.21-18.19.12:319][ 82]LogHttp: Warning: 00000780FDEC6200: libcurl info message cache 12 (  Trying 54.147.8.52:443...)
+[2025.08.21-18.19.12:319][ 82]LogHttp: Warning: 00000780FDEC6200: libcurl info message cache 13 (Connected to datarouter.ol.epicgames.com (54.147.8.52) port 443)
+[2025.08.21-18.19.12:319][ 82]LogHttp: Warning: 00000780FDEC6200: libcurl info message cache 14 (ALPN: curl offers http/1.1)
+[2025.08.21-18.19.12:319][ 82]LogHttp: Warning: 00000780FDEC6200: libcurl info message cache 15 (SSL reusing session ID)
+[2025.08.21-18.19.12:319][ 82]LogHttp: Warning: 00000780FDEC6200: libcurl info message cache 16 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.08.21-18.19.12:319][ 82]LogHttp: Warning: 00000780FDEC6200: libcurl info message cache 17 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2025.08.21-18.19.12:319][ 82]LogHttp: Warning: 00000780FDEC6200: libcurl info message cache 18 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2025.08.21-18.19.12:319][ 82]LogHttp: Warning: 00000780FDEC6200: libcurl info message cache 19 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2025.08.21-18.19.12:319][ 82]LogHttp: Warning: 00000780FDEC6200: libcurl info message cache 20 (TLSv1.3 (IN), TLS handshake, CERT verify (15):)
+[2025.08.21-18.19.12:319][ 82]LogHttp: Warning: 00000780FDEC6200: libcurl info message cache 21 (TLSv1.3 (IN), TLS handshake, Finished (20):)
+[2025.08.21-18.19.12:319][ 82]LogHttp: Warning: 00000780FDEC6200: libcurl info message cache 22 (TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):)
+[2025.08.21-18.19.12:319][ 82]LogHttp: Warning: 00000780FDEC6200: libcurl info message cache 23 (TLSv1.3 (OUT), TLS handshake, Finished (20):)
+[2025.08.21-18.19.12:319][ 82]LogHttp: Warning: 00000780FDEC6200: libcurl info message cache 24 (SSL connection using TLSv1.3 / TLS_AES_128_GCM_SHA256)
+[2025.08.21-18.19.12:319][ 82]LogHttp: Warning: 00000780FDEC6200: libcurl info message cache 25 (ALPN: server accepted http/1.1)
+[2025.08.21-18.19.12:319][ 82]LogHttp: Warning: 00000780FDEC6200: libcurl info message cache 26 (Server certificate:)
+[2025.08.21-18.19.12:319][ 82]LogHttp: Warning: 00000780FDEC6200: libcurl info message cache 27 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2025.08.21-18.19.12:319][ 82]LogHttp: Warning: 00000780FDEC6200: libcurl info message cache 28 ( start date: Feb  2 00:00:00 2025 GMT)
+[2025.08.21-18.19.12:319][ 82]LogHttp: Warning: 00000780FDEC6200: libcurl info message cache 29 ( expire date: Mar  3 23:59:59 2026 GMT)
+[2025.08.21-18.19.12:319][ 82]LogHttp: Warning: 00000780FDEC6200: libcurl info message cache 30 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2025.08.21-18.19.12:319][ 82]LogHttp: Warning: 00000780FDEC6200: libcurl info message cache 31 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2025.08.21-18.19.12:319][ 82]LogHttp: Warning: 00000780FDEC6200: libcurl info message cache 32 ( SSL certificate verify ok.)
+[2025.08.21-18.19.12:319][ 82]LogHttp: Warning: 00000780FDEC6200: libcurl info message cache 33 (using HTTP/1.1)
+[2025.08.21-18.19.12:319][ 82]LogHttp: Warning: 00000780FDEC6200: libcurl info message cache 34 (necessary data rewind wasn't possible)
+[2025.08.21-18.19.12:319][ 82]LogHttp: Warning: 00000780FDEC6200: libcurl info message cache 35 (Closing connection)
+[2025.08.21-18.19.12:319][ 82]LogHttp: Warning: 00000780FDEC6200: libcurl info message cache 36 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.08.21-18.23.33:028][864]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 989.943481
+[2025.08.21-18.23.34:029][867]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.21-18.23.34:029][867]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 990.611267, Update Interval: 330.964081
+[2025.08.21-18.24.59:901][602]LogSlate: Warning: Unable to rasterize '../../../Engine/Content/Editor/Slate/Starship/AssetIcons/SkeletalMesh_64.svg'. File could not be found
+[2025.08.21-18.25.01:508][762]LogStreaming: Display: FlushAsyncLoading(492): 1 QueuedPackages, 0 AsyncPackages
+[2025.08.21-18.25.01:587][762]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/FighterJet/Assets/Meshes/West_Fighter_F18C/SK_West_Fighter_F18C.SK_West_Fighter_F18C
+[2025.08.21-18.25.01:606][762]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SK_West_Fighter_F18C) ...
+[2025.08.21-18.25.01:687][762]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_0
+[2025.08.21-18.25.01:753][762]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.08.21-18.25.02:559][762]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_1
+[2025.08.21-18.25.03:010][765]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_2
+[2025.08.21-18.25.03:259][770]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_3
+[2025.08.21-18.25.03:309][771]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_4
+[2025.08.21-18.25.07:845][ 17]LogSlate: Window 'SK_West_Fighter_F18C' being destroyed
+[2025.08.21-18.25.07:948][ 17]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.08.21-18.25.07:948][ 17]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.21-18.25.08:021][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2025.08.21-18.26.25:342][427]LogHttp: Warning: 0000078107D3C400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.08.21-18.26.25:342][427]LogHttp: Warning: 0000078107D3C400: libcurl info message cache 0 (Found bundle for host: 0x7808c840a80 [serially])
+[2025.08.21-18.26.25:342][427]LogHttp: Warning: 0000078107D3C400: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2025.08.21-18.26.25:342][427]LogHttp: Warning: 0000078107D3C400: libcurl info message cache 2 (We are completely uploaded and fine)
+[2025.08.21-18.26.25:342][427]LogHttp: Warning: 0000078107D3C400: libcurl info message cache 3 (Recv failure: Connection was reset)
+[2025.08.21-18.26.25:342][427]LogHttp: Warning: 0000078107D3C400: libcurl info message cache 4 (OpenSSL SSL_read: Connection was reset, errno 10054)
+[2025.08.21-18.26.25:342][427]LogHttp: Warning: 0000078107D3C400: libcurl info message cache 5 (Connection died, retrying a fresh connect (retry count: 1))
+[2025.08.21-18.26.25:342][427]LogHttp: Warning: 0000078107D3C400: libcurl info message cache 6 (state.rewindbeforesend = TRUE)
+[2025.08.21-18.26.25:342][427]LogHttp: Warning: 0000078107D3C400: libcurl info message cache 7 (Closing connection)
+[2025.08.21-18.26.25:342][427]LogHttp: Warning: 0000078107D3C400: libcurl info message cache 8 (Recv failure: Connection was reset)
+[2025.08.21-18.26.25:342][427]LogHttp: Warning: 0000078107D3C400: libcurl info message cache 9 (Send failure: Connection was reset)
+[2025.08.21-18.26.25:342][427]LogHttp: Warning: 0000078107D3C400: libcurl info message cache 10 (Recv failure: Connection was reset)
+[2025.08.21-18.26.25:342][427]LogHttp: Warning: 0000078107D3C400: libcurl info message cache 11 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B73C7BAE6-4828-384D-10AE-EA9C6F5062AB%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.5.4-40574608%2B%2B%2BUE5%2BRelease-5.5&UserID=4301ae3746a2d0658f1ea7896f47e70a%7Cc125afadbc1d4a4ca07801b3c9fe31d3%7C6fc62dfd-3999-4e0c-9721-f0aa7ad24bd8&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2025.08.21-18.26.25:342][427]LogHttp: Warning: 0000078107D3C400: libcurl info message cache 12 (Could not resolve host: datarouter.ol.epicgames.com)
+[2025.08.21-18.26.25:342][427]LogHttp: Warning: 0000078107D3C400: libcurl info message cache 13 (Closing connection)
+[2025.08.21-18.26.42:010][477]LogEOSSDK: Warning: LogHttp: 000007810492DE00: invalid HTTP response code received. URL: https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BF9BFBE83-4DCB-0A29-B2FB-5CA63D71453B%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.17.0-39599718%20-%20%2B%2BEOSSDK%2BRelease-1.17.0-CL-39599718&UserID=&AppEnvironment=Production&UploadType=sdkevents, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.08.21-18.26.42:010][477]LogEOSSDK: Warning: LogHttp: 000007810492DE00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.08.21-18.26.42:010][477]LogEOSSDK: Warning: LogHttp: 000007810492DE00: libcurl info message cache 0 (Found bundle for host: 0x78104080090 [serially])
+[2025.08.21-18.26.42:010][477]LogEOSSDK: Warning: LogHttp: 000007810492DE00: libcurl info message cache 1 (Re-using existing connection with host api.epicgames.dev)
+[2025.08.21-18.26.42:010][477]LogEOSSDK: Warning: LogHttp: 000007810492DE00: libcurl info message cache 2 (We are completely uploaded and fine)
+[2025.08.21-18.26.42:010][477]LogEOSSDK: Warning: LogHttp: 000007810492DE00: libcurl info message cache 3 (Recv failure: Connection was reset)
+[2025.08.21-18.26.42:010][477]LogEOSSDK: Warning: LogHttp: 000007810492DE00: libcurl info message cache 4 (OpenSSL SSL_read: Connection was reset, errno 10054)
+[2025.08.21-18.26.42:010][477]LogEOSSDK: Warning: LogHttp: 000007810492DE00: libcurl info message cache 5 (Connection died, retrying a fresh connect (retry count: 1))
+[2025.08.21-18.26.42:010][477]LogEOSSDK: Warning: LogHttp: 000007810492DE00: libcurl info message cache 6 (state.rewindbeforesend = TRUE)
+[2025.08.21-18.26.42:010][477]LogEOSSDK: Warning: LogHttp: 000007810492DE00: libcurl info message cache 7 (Closing connection)
+[2025.08.21-18.26.42:010][477]LogEOSSDK: Warning: LogHttp: 000007810492DE00: libcurl info message cache 8 (Recv failure: Connection was reset)
+[2025.08.21-18.26.42:010][477]LogEOSSDK: Warning: LogHttp: 000007810492DE00: libcurl info message cache 9 (Send failure: Connection was reset)
+[2025.08.21-18.26.42:010][478]LogEOSSDK: Warning: LogHttp: 000007810492DE00: libcurl info message cache 10 (Recv failure: Connection was reset)
+[2025.08.21-18.26.42:012][478]LogEOSSDK: Warning: LogHttp: 000007810492DE00: libcurl info message cache 11 (Issue another request to this URL: 'https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BF9BFBE83-4DCB-0A29-B2FB-5CA63D71453B%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.17.0-39599718%20-%20%2B%2BEOSSDK%2BRelease-1.17.0-CL-39599718&UserID=&AppEnvironment=Production&UploadType=sdkevents')
+[2025.08.21-18.26.42:012][478]LogEOSSDK: Warning: LogHttp: 000007810492DE00: libcurl info message cache 12 (Found bundle for host: 0x78104080090 [serially])
+[2025.08.21-18.26.42:012][478]LogEOSSDK: Warning: LogHttp: 000007810492DE00: libcurl info message cache 13 (Re-using existing connection with host api.epicgames.dev)
+[2025.08.21-18.26.42:012][478]LogEOSSDK: Warning: LogHttp: 000007810492DE00: libcurl info message cache 14 (We are completely uploaded and fine)
+[2025.08.21-18.26.42:012][478]LogEOSSDK: Warning: LogHttp: 000007810492DE00: libcurl info message cache 15 (Recv failure: Connection was reset)
+[2025.08.21-18.26.42:012][478]LogEOSSDK: Warning: LogHttp: 000007810492DE00: libcurl info message cache 16 (OpenSSL SSL_read: Connection was reset, errno 10054)
+[2025.08.21-18.26.42:012][478]LogEOSSDK: Warning: LogHttp: 000007810492DE00: libcurl info message cache 17 (Connection died, retrying a fresh connect (retry count: 2))
+[2025.08.21-18.26.42:012][478]LogEOSSDK: Warning: LogHttp: 000007810492DE00: libcurl info message cache 18 (state.rewindbeforesend = TRUE)
+[2025.08.21-18.26.42:012][478]LogEOSSDK: Warning: LogHttp: 000007810492DE00: libcurl info message cache 19 (Closing connection)
+[2025.08.21-18.26.42:012][478]LogEOSSDK: Warning: LogHttp: 000007810492DE00: libcurl info message cache 20 (Recv failure: Connection was reset)
+[2025.08.21-18.26.42:012][478]LogEOSSDK: Warning: LogHttp: 000007810492DE00: libcurl info message cache 21 (Send failure: Connection was reset)
+[2025.08.21-18.26.42:012][478]LogEOSSDK: Warning: LogHttp: 000007810492DE00: libcurl info message cache 22 (Recv failure: Connection was reset)
+[2025.08.21-18.26.42:012][478]LogEOSSDK: Warning: LogHttp: 000007810492DE00: libcurl info message cache 23 (Issue another request to this URL: 'https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BF9BFBE83-4DCB-0A29-B2FB-5CA63D71453B%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.17.0-39599718%20-%20%2B%2BEOSSDK%2BRelease-1.17.0-CL-39599718&UserID=&AppEnvironment=Production&UploadType=sdkevents')
+[2025.08.21-18.26.42:012][478]LogEOSSDK: Warning: LogHttp: 000007810492DE00: libcurl info message cache 24 (Could not resolve host: api.epicgames.dev)
+[2025.08.21-18.26.42:012][478]LogEOSSDK: Warning: LogHttp: 000007810492DE00: libcurl info message cache 25 (Closing connection)
+[2025.08.21-18.26.42:343][478]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BF9BFBE83-4DCB-0A29-B2FB-5CA63D71453B%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.17.0-39599718%20-%20%2B%2BEOSSDK%2BRelease-1.17.0-CL-39599718&UserID=&AppEnvironment=Production&UploadType=sdkevents
+[2025.08.21-18.26.43:343][481]LogEOSSDK: Warning: LogHttp: 0000078104924800: invalid HTTP response code received. URL: https://api.epicgames.dev/epic/oauth/v2/tokenInfo, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.08.21-18.26.43:343][481]LogEOSSDK: Warning: LogHttp: 0000078104924800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.08.21-18.26.43:343][482]LogEOSSDK: Warning: LogHttp: 0000078104924800: libcurl info message cache 0 (Could not resolve host: api.epicgames.dev)
+[2025.08.21-18.26.43:343][482]LogEOSSDK: Warning: LogHttp: 0000078104924800: libcurl info message cache 1 (Closing connection)
+[2025.08.21-18.26.43:343][482]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/epic/oauth/v2/tokenInfo
+[2025.08.21-18.26.43:677][482]LogEOSSDK: Error: LogEOSAuth: Ignoring failed attempt to verify active authentication session due to an unexpected error. Error: EOS_OperationWillRetry UserId: c12...1d3
+[2025.08.21-18.26.44:344][484]LogEOSSDK: Warning: LogHttp: Retry 1 on https://api.epicgames.dev/epic/oauth/v2/tokenInfo
+[2025.08.21-18.26.44:677][485]LogEOSSDK: Warning: LogHttp: 0000078104924800: invalid HTTP response code received. URL: https://api.epicgames.dev/epic/oauth/v2/tokenInfo, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.08.21-18.26.44:677][485]LogEOSSDK: Warning: LogHttp: 0000078104924800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.08.21-18.26.44:678][486]LogEOSSDK: Warning: LogHttp: 0000078104924800: libcurl info message cache 2 (Could not resolve host: api.epicgames.dev)
+[2025.08.21-18.26.44:678][486]LogEOSSDK: Warning: LogHttp: 0000078104924800: libcurl info message cache 3 (Closing connection)
+[2025.08.21-18.26.44:678][486]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/epic/oauth/v2/tokenInfo
+[2025.08.21-18.26.45:011][486]LogEOSSDK: Error: LogEOSAuth: Ignoring failed attempt to verify active authentication session due to an unexpected error. Error: EOS_OperationWillRetry UserId: c12...1d3
+[2025.08.21-18.26.46:011][489]LogEOSSDK: Warning: LogHttp: Retry 2 on https://api.epicgames.dev/epic/oauth/v2/tokenInfo
+[2025.08.21-18.26.46:344][490]LogEOSSDK: Warning: LogHttp: 0000078104924800: invalid HTTP response code received. URL: https://api.epicgames.dev/epic/oauth/v2/tokenInfo, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.08.21-18.26.46:344][490]LogEOSSDK: Warning: LogHttp: 0000078104924800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.08.21-18.26.46:344][491]LogEOSSDK: Warning: LogHttp: 0000078104924800: libcurl info message cache 4 (Could not resolve host: api.epicgames.dev)
+[2025.08.21-18.26.46:344][491]LogEOSSDK: Warning: LogHttp: 0000078104924800: libcurl info message cache 5 (Closing connection)
+[2025.08.21-18.26.46:344][491]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/epic/oauth/v2/tokenInfo
+[2025.08.21-18.26.46:678][491]LogEOSSDK: Error: LogEOSAuth: Ignoring failed attempt to verify active authentication session due to an unexpected error. Error: EOS_OperationWillRetry UserId: c12...1d3
+[2025.08.21-18.26.47:345][493]LogEOSSDK: Warning: LogHttp: Retry 3 on https://api.epicgames.dev/epic/oauth/v2/tokenInfo
+[2025.08.21-18.26.47:678][494]LogEOSSDK: Warning: LogHttp: 0000078104924800: invalid HTTP response code received. URL: https://api.epicgames.dev/epic/oauth/v2/tokenInfo, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.08.21-18.26.47:678][495]LogEOSSDK: Warning: LogHttp: 0000078104924800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.08.21-18.26.47:678][495]LogEOSSDK: Warning: LogHttp: 0000078104924800: libcurl info message cache 6 (Could not resolve host: api.epicgames.dev)
+[2025.08.21-18.26.47:679][495]LogEOSSDK: Warning: LogHttp: 0000078104924800: libcurl info message cache 7 (Closing connection)
+[2025.08.21-18.26.47:679][495]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/epic/oauth/v2/tokenInfo
+[2025.08.21-18.26.48:011][495]LogEOSSDK: Error: LogEOSAuth: Ignoring failed attempt to verify active authentication session due to an unexpected error. Error: EOS_OperationWillRetry UserId: c12...1d3
+[2025.08.21-18.26.48:678][497]LogEOSSDK: Warning: LogHttp: Retry 4 on https://api.epicgames.dev/epic/oauth/v2/tokenInfo
+[2025.08.21-18.26.49:012][498]LogEOSSDK: Warning: LogHttp: 0000078104924800: invalid HTTP response code received. URL: https://api.epicgames.dev/epic/oauth/v2/tokenInfo, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.08.21-18.26.49:012][498]LogEOSSDK: Warning: LogHttp: 0000078104924800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.08.21-18.26.49:012][499]LogEOSSDK: Warning: LogHttp: 0000078104924800: libcurl info message cache 8 (Could not resolve host: api.epicgames.dev)
+[2025.08.21-18.26.49:012][499]LogEOSSDK: Warning: LogHttp: 0000078104924800: libcurl info message cache 9 (Closing connection)
+[2025.08.21-18.26.49:012][499]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/epic/oauth/v2/tokenInfo
+[2025.08.21-18.26.49:012][499]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[OAuth], OperationName=[TokenInfov2], Url=[<Redacted>]
+[2025.08.21-18.26.49:345][499]LogEOSSDK: Error: LogEOSAuth: Ignoring failed attempt to verify active authentication session due to an unexpected error. Error: EOS_NoConnection UserId: c12...1d3
+[2025.08.21-18.27.16:016][579]LogHttp: Warning: 0000078107D31500: request failed, libcurl error: 7 (Couldn't connect to server)
+[2025.08.21-18.27.16:016][579]LogHttp: Warning: 0000078107D31500: libcurl info message cache 0 (  Trying 52.54.129.186:443...)
+[2025.08.21-18.27.16:016][579]LogHttp: Warning: 0000078107D31500: libcurl info message cache 1 (connect to 52.54.129.186 port 443 failed: Connection was aborted)
+[2025.08.21-18.27.16:016][579]LogHttp: Warning: 0000078107D31500: libcurl info message cache 2 (  Trying 100.24.247.27:443...)
+[2025.08.21-18.27.16:016][579]LogHttp: Warning: 0000078107D31500: libcurl info message cache 3 (connect to 100.24.247.27 port 443 failed: Network unreachable)
+[2025.08.21-18.27.16:016][579]LogHttp: Warning: 0000078107D31500: libcurl info message cache 4 (  Trying 44.205.209.132:443...)
+[2025.08.21-18.27.16:016][579]LogHttp: Warning: 0000078107D31500: libcurl info message cache 5 (connect to 44.205.209.132 port 443 failed: Network unreachable)
+[2025.08.21-18.27.16:016][579]LogHttp: Warning: 0000078107D31500: libcurl info message cache 6 (  Trying 50.19.125.65:443...)
+[2025.08.21-18.27.16:016][579]LogHttp: Warning: 0000078107D31500: libcurl info message cache 7 (connect to 50.19.125.65 port 443 failed: Network unreachable)
+[2025.08.21-18.27.16:016][579]LogHttp: Warning: 0000078107D31500: libcurl info message cache 8 (  Trying 52.203.187.122:443...)
+[2025.08.21-18.27.16:017][579]LogHttp: Warning: 0000078107D31500: libcurl info message cache 9 (connect to 52.203.187.122 port 443 failed: Network unreachable)
+[2025.08.21-18.27.16:017][579]LogHttp: Warning: 0000078107D31500: libcurl info message cache 10 (  Trying 44.206.33.249:443...)
+[2025.08.21-18.27.16:017][579]LogHttp: Warning: 0000078107D31500: libcurl info message cache 11 (connect to 44.206.33.249 port 443 failed: Network unreachable)
+[2025.08.21-18.27.16:017][579]LogHttp: Warning: 0000078107D31500: libcurl info message cache 12 (  Trying 52.23.30.142:443...)
+[2025.08.21-18.27.16:017][579]LogHttp: Warning: 0000078107D31500: libcurl info message cache 13 (connect to 52.23.30.142 port 443 failed: Network unreachable)
+[2025.08.21-18.27.16:017][579]LogHttp: Warning: 0000078107D31500: libcurl info message cache 14 (  Trying 52.54.94.64:443...)
+[2025.08.21-18.27.16:017][579]LogHttp: Warning: 0000078107D31500: libcurl info message cache 15 (connect to 52.54.94.64 port 443 failed: Network unreachable)
+[2025.08.21-18.27.16:017][579]LogHttp: Warning: 0000078107D31500: libcurl info message cache 16 (Failed to connect to datarouter.ol.epicgames.com port 443 after 12100 ms: Couldn't connect to server)
+[2025.08.21-18.27.16:017][579]LogHttp: Warning: 0000078107D31500: libcurl info message cache 17 (Closing connection)
+[2025.08.21-18.27.16:017][579]LogEOSSDK: Warning: LogHttp: 0000078104923C00: invalid HTTP response code received. URL: https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BF9BFBE83-4DCB-0A29-B2FB-5CA63D71453B%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.17.0-39599718%20-%20%2B%2BEOSSDK%2BRelease-1.17.0-CL-39599718&UserID=&AppEnvironment=Production&UploadType=sdkevents, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.08.21-18.27.16:017][579]LogEOSSDK: Warning: LogHttp: 0000078104923C00: request failed, libcurl error: 7 (Couldn't connect to server)
+[2025.08.21-18.27.16:017][579]LogEOSSDK: Warning: LogHttp: 0000078104923C00: libcurl info message cache 0 (  Trying 34.205.244.117:443...)
+[2025.08.21-18.27.16:017][579]LogEOSSDK: Warning: LogHttp: 0000078104923C00: libcurl info message cache 1 (connect to 34.205.244.117 port 443 failed: Connection was aborted)
+[2025.08.21-18.27.16:017][579]LogEOSSDK: Warning: LogHttp: 0000078104923C00: libcurl info message cache 2 (  Trying 54.235.45.43:443...)
+[2025.08.21-18.27.16:017][579]LogEOSSDK: Warning: LogHttp: 0000078104923C00: libcurl info message cache 3 (connect to 54.235.45.43 port 443 failed: Network unreachable)
+[2025.08.21-18.27.16:017][579]LogEOSSDK: Warning: LogHttp: 0000078104923C00: libcurl info message cache 4 (  Trying 52.87.97.67:443...)
+[2025.08.21-18.27.16:017][579]LogEOSSDK: Warning: LogHttp: 0000078104923C00: libcurl info message cache 5 (connect to 52.87.97.67 port 443 failed: Network unreachable)
+[2025.08.21-18.27.16:017][580]LogEOSSDK: Warning: LogHttp: 0000078104923C00: libcurl info message cache 6 (  Trying 54.209.12.110:443...)
+[2025.08.21-18.27.16:017][580]LogEOSSDK: Warning: LogHttp: 0000078104923C00: libcurl info message cache 7 (connect to 54.209.12.110 port 443 failed: Network unreachable)
+[2025.08.21-18.27.16:017][580]LogEOSSDK: Warning: LogHttp: 0000078104923C00: libcurl info message cache 8 (  Trying 52.20.149.62:443...)
+[2025.08.21-18.27.16:017][580]LogEOSSDK: Warning: LogHttp: 0000078104923C00: libcurl info message cache 9 (connect to 52.20.149.62 port 443 failed: Network unreachable)
+[2025.08.21-18.27.16:017][580]LogEOSSDK: Warning: LogHttp: 0000078104923C00: libcurl info message cache 10 (  Trying 13.223.127.134:443...)
+[2025.08.21-18.27.16:017][580]LogEOSSDK: Warning: LogHttp: 0000078104923C00: libcurl info message cache 11 (connect to 13.223.127.134 port 443 failed: Network unreachable)
+[2025.08.21-18.27.16:017][580]LogEOSSDK: Warning: LogHttp: 0000078104923C00: libcurl info message cache 12 (  Trying 3.229.223.71:443...)
+[2025.08.21-18.27.16:017][580]LogEOSSDK: Warning: LogHttp: 0000078104923C00: libcurl info message cache 13 (connect to 3.229.223.71 port 443 failed: Network unreachable)
+[2025.08.21-18.27.16:017][580]LogEOSSDK: Warning: LogHttp: 0000078104923C00: libcurl info message cache 14 (  Trying 18.232.252.171:443...)
+[2025.08.21-18.27.16:017][580]LogEOSSDK: Warning: LogHttp: 0000078104923C00: libcurl info message cache 15 (connect to 18.232.252.171 port 443 failed: Network unreachable)
+[2025.08.21-18.27.16:017][580]LogEOSSDK: Warning: LogHttp: 0000078104923C00: libcurl info message cache 16 (Failed to connect to api.epicgames.dev port 443 after 12433 ms: Couldn't connect to server)
+[2025.08.21-18.27.16:017][580]LogEOSSDK: Warning: LogHttp: 0000078104923C00: libcurl info message cache 17 (Closing connection)
+[2025.08.21-18.27.16:017][580]LogEOSSDK: Warning: LogHttp: 0000078104923600: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=1339B77348A4AB68306AC895DC7D745B, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.08.21-18.27.16:017][580]LogEOSSDK: Warning: LogHttp: 0000078104923600: request failed, libcurl error: 7 (Couldn't connect to server)
+[2025.08.21-18.27.16:017][580]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 0 (Found bundle for host: 0x78104080810 [serially])
+[2025.08.21-18.27.16:017][580]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 1 (Hostname 'api.epicgames.dev' was found in DNS cache)
+[2025.08.21-18.27.16:017][580]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 2 (  Trying 34.205.244.117:443...)
+[2025.08.21-18.27.16:017][580]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 3 (connect to 34.205.244.117 port 443 failed: Connection was aborted)
+[2025.08.21-18.27.16:017][580]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 4 (  Trying 54.235.45.43:443...)
+[2025.08.21-18.27.16:017][580]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 5 (connect to 54.235.45.43 port 443 failed: Network unreachable)
+[2025.08.21-18.27.16:017][580]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 6 (  Trying 52.87.97.67:443...)
+[2025.08.21-18.27.16:017][580]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 7 (connect to 52.87.97.67 port 443 failed: Network unreachable)
+[2025.08.21-18.27.16:017][580]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 8 (  Trying 54.209.12.110:443...)
+[2025.08.21-18.27.16:017][580]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 9 (connect to 54.209.12.110 port 443 failed: Network unreachable)
+[2025.08.21-18.27.16:017][580]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 10 (  Trying 52.20.149.62:443...)
+[2025.08.21-18.27.16:017][580]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 11 (connect to 52.20.149.62 port 443 failed: Network unreachable)
+[2025.08.21-18.27.16:017][580]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 12 (  Trying 13.223.127.134:443...)
+[2025.08.21-18.27.16:017][580]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 13 (connect to 13.223.127.134 port 443 failed: Network unreachable)
+[2025.08.21-18.27.16:017][580]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 14 (  Trying 3.229.223.71:443...)
+[2025.08.21-18.27.16:017][580]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 15 (connect to 3.229.223.71 port 443 failed: Network unreachable)
+[2025.08.21-18.27.16:017][580]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 16 (  Trying 18.232.252.171:443...)
+[2025.08.21-18.27.16:017][580]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 17 (connect to 18.232.252.171 port 443 failed: Network unreachable)
+[2025.08.21-18.27.16:017][580]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 18 (Failed to connect to api.epicgames.dev port 443 after 11782 ms: Couldn't connect to server)
+[2025.08.21-18.27.16:017][580]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 19 (Closing connection)
+[2025.08.21-18.27.16:017][580]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=1339B77348A4AB68306AC895DC7D745B
+[2025.08.21-18.27.16:349][580]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BF9BFBE83-4DCB-0A29-B2FB-5CA63D71453B%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.17.0-39599718%20-%20%2B%2BEOSSDK%2BRelease-1.17.0-CL-39599718&UserID=&AppEnvironment=Production&UploadType=sdkevents
+[2025.08.21-18.27.16:680][581]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2025.08.21-18.27.17:349][583]LogEOSSDK: Warning: LogHttp: Retry 1 on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=1339B77348A4AB68306AC895DC7D745B
+[2025.08.21-18.27.17:683][584]LogEOSSDK: Warning: LogHttp: 0000078104923600: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=1339B77348A4AB68306AC895DC7D745B, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.08.21-18.27.17:683][584]LogEOSSDK: Warning: LogHttp: 0000078104923600: request failed, libcurl error: 7 (Couldn't connect to server)
+[2025.08.21-18.27.17:683][584]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 20 (Hostname api.epicgames.dev was found in DNS cache)
+[2025.08.21-18.27.17:683][584]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 21 (  Trying 34.205.244.117:443...)
+[2025.08.21-18.27.17:683][584]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 22 (connect to 34.205.244.117 port 443 failed: Network unreachable)
+[2025.08.21-18.27.17:683][584]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 23 (  Trying 54.235.45.43:443...)
+[2025.08.21-18.27.17:683][584]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 24 (connect to 54.235.45.43 port 443 failed: Network unreachable)
+[2025.08.21-18.27.17:683][584]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 25 (  Trying 52.87.97.67:443...)
+[2025.08.21-18.27.17:683][584]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 26 (connect to 52.87.97.67 port 443 failed: Network unreachable)
+[2025.08.21-18.27.17:683][584]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 27 (  Trying 54.209.12.110:443...)
+[2025.08.21-18.27.17:683][584]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 28 (connect to 54.209.12.110 port 443 failed: Network unreachable)
+[2025.08.21-18.27.17:683][584]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 29 (  Trying 52.20.149.62:443...)
+[2025.08.21-18.27.17:683][584]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 30 (connect to 52.20.149.62 port 443 failed: Network unreachable)
+[2025.08.21-18.27.17:683][584]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 31 (  Trying 13.223.127.134:443...)
+[2025.08.21-18.27.17:683][585]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 32 (connect to 13.223.127.134 port 443 failed: Network unreachable)
+[2025.08.21-18.27.17:683][585]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 33 (  Trying 3.229.223.71:443...)
+[2025.08.21-18.27.17:683][585]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 34 (connect to 3.229.223.71 port 443 failed: Network unreachable)
+[2025.08.21-18.27.17:683][585]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 35 (  Trying 18.232.252.171:443...)
+[2025.08.21-18.27.17:683][585]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 36 (connect to 18.232.252.171 port 443 failed: Network unreachable)
+[2025.08.21-18.27.17:683][585]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 37 (Failed to connect to api.epicgames.dev port 443 after 71 ms: Couldn't connect to server)
+[2025.08.21-18.27.17:683][585]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 38 (Closing connection)
+[2025.08.21-18.27.17:683][585]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=1339B77348A4AB68306AC895DC7D745B
+[2025.08.21-18.27.18:461][586]LogUdpMessaging: Display: Unicast socket bound to '0.0.0.0:52378'.
+[2025.08.21-18.27.18:465][586]Could not fetch the local adapter addresses
+[2025.08.21-18.27.18:465][586]LogUdpMessaging: Display: Added local interface '0.0.0.0' to multicast group '230.0.0.1:6666'
+[2025.08.21-18.27.18:684][587]LogEOSSDK: Warning: LogHttp: Retry 2 on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=1339B77348A4AB68306AC895DC7D745B
+[2025.08.21-18.27.19:017][588]LogEOSSDK: Warning: LogHttp: 0000078104923600: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=1339B77348A4AB68306AC895DC7D745B, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.08.21-18.27.19:017][588]LogEOSSDK: Warning: LogHttp: 0000078104923600: request failed, libcurl error: 7 (Couldn't connect to server)
+[2025.08.21-18.27.19:017][588]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 39 (Hostname api.epicgames.dev was found in DNS cache)
+[2025.08.21-18.27.19:017][588]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 40 (  Trying 34.205.244.117:443...)
+[2025.08.21-18.27.19:017][588]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 41 (connect to 34.205.244.117 port 443 failed: Network unreachable)
+[2025.08.21-18.27.19:017][588]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 42 (  Trying 54.235.45.43:443...)
+[2025.08.21-18.27.19:017][588]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 43 (connect to 54.235.45.43 port 443 failed: Network unreachable)
+[2025.08.21-18.27.19:017][588]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 44 (  Trying 52.87.97.67:443...)
+[2025.08.21-18.27.19:017][588]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 45 (connect to 52.87.97.67 port 443 failed: Network unreachable)
+[2025.08.21-18.27.19:017][588]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 46 (  Trying 54.209.12.110:443...)
+[2025.08.21-18.27.19:017][588]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 47 (connect to 54.209.12.110 port 443 failed: Network unreachable)
+[2025.08.21-18.27.19:017][588]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 48 (  Trying 52.20.149.62:443...)
+[2025.08.21-18.27.19:017][588]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 49 (connect to 52.20.149.62 port 443 failed: Network unreachable)
+[2025.08.21-18.27.19:017][588]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 0 (  Trying 13.223.127.134:443...)
+[2025.08.21-18.27.19:017][588]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 1 (connect to 13.223.127.134 port 443 failed: Network unreachable)
+[2025.08.21-18.27.19:017][588]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 2 (  Trying 3.229.223.71:443...)
+[2025.08.21-18.27.19:017][588]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 3 (connect to 3.229.223.71 port 443 failed: Network unreachable)
+[2025.08.21-18.27.19:017][588]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 4 (  Trying 18.232.252.171:443...)
+[2025.08.21-18.27.19:017][588]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 5 (connect to 18.232.252.171 port 443 failed: Network unreachable)
+[2025.08.21-18.27.19:017][589]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 6 (Failed to connect to api.epicgames.dev port 443 after 73 ms: Couldn't connect to server)
+[2025.08.21-18.27.19:017][589]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 7 (Closing connection)
+[2025.08.21-18.27.19:017][589]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=1339B77348A4AB68306AC895DC7D745B
+[2025.08.21-18.27.19:017][589]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[Metrics], OperationName=[SendBackendEvent], Url=[<Redacted>]
+[2025.08.21-18.27.49:685][680]LogEOSSDK: Warning: LogHttp: 0000078104923600: invalid HTTP response code received. URL: https://api.epicgames.dev/epic/oauth/v2/tokenInfo, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.08.21-18.27.49:686][680]LogEOSSDK: Warning: LogHttp: 0000078104923600: request failed, libcurl error: 7 (Couldn't connect to server)
+[2025.08.21-18.27.49:686][680]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 0 (Hostname api.epicgames.dev was found in DNS cache)
+[2025.08.21-18.27.49:686][680]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 1 (  Trying 34.205.244.117:443...)
+[2025.08.21-18.27.49:686][680]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 2 (connect to 34.205.244.117 port 443 failed: Network unreachable)
+[2025.08.21-18.27.49:686][680]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 3 (  Trying 54.235.45.43:443...)
+[2025.08.21-18.27.49:686][680]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 4 (connect to 54.235.45.43 port 443 failed: Network unreachable)
+[2025.08.21-18.27.49:686][680]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 5 (  Trying 52.87.97.67:443...)
+[2025.08.21-18.27.49:686][680]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 6 (connect to 52.87.97.67 port 443 failed: Network unreachable)
+[2025.08.21-18.27.49:686][680]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 7 (  Trying 54.209.12.110:443...)
+[2025.08.21-18.27.49:686][680]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 8 (connect to 54.209.12.110 port 443 failed: Network unreachable)
+[2025.08.21-18.27.49:686][681]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 9 (  Trying 52.20.149.62:443...)
+[2025.08.21-18.27.49:686][681]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 10 (connect to 52.20.149.62 port 443 failed: Network unreachable)
+[2025.08.21-18.27.49:686][681]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 11 (  Trying 13.223.127.134:443...)
+[2025.08.21-18.27.49:686][681]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 12 (connect to 13.223.127.134 port 443 failed: Network unreachable)
+[2025.08.21-18.27.49:686][681]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 13 (  Trying 3.229.223.71:443...)
+[2025.08.21-18.27.49:686][681]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 14 (connect to 3.229.223.71 port 443 failed: Network unreachable)
+[2025.08.21-18.27.49:686][681]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 15 (  Trying 18.232.252.171:443...)
+[2025.08.21-18.27.49:686][681]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 16 (connect to 18.232.252.171 port 443 failed: Network unreachable)
+[2025.08.21-18.27.49:686][681]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 17 (Failed to connect to api.epicgames.dev port 443 after 69 ms: Couldn't connect to server)
+[2025.08.21-18.27.49:686][681]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 18 (Closing connection)
+[2025.08.21-18.27.49:686][681]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/epic/oauth/v2/tokenInfo
+[2025.08.21-18.27.50:019][681]LogEOSSDK: Error: LogEOSAuth: Ignoring failed attempt to verify active authentication session due to an unexpected error. Error: EOS_OperationWillRetry UserId: c12...1d3
+[2025.08.21-18.27.50:686][683]LogEOSSDK: Warning: LogHttp: Retry 1 on https://api.epicgames.dev/epic/oauth/v2/tokenInfo
+[2025.08.21-18.27.51:020][684]LogEOSSDK: Warning: LogHttp: 0000078104923600: invalid HTTP response code received. URL: https://api.epicgames.dev/epic/oauth/v2/tokenInfo, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.08.21-18.27.51:020][684]LogEOSSDK: Warning: LogHttp: 0000078104923600: request failed, libcurl error: 7 (Couldn't connect to server)
+[2025.08.21-18.27.51:020][684]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 19 (Hostname api.epicgames.dev was found in DNS cache)
+[2025.08.21-18.27.51:020][684]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 20 (  Trying 34.205.244.117:443...)
+[2025.08.21-18.27.51:020][684]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 21 (connect to 34.205.244.117 port 443 failed: Network unreachable)
+[2025.08.21-18.27.51:020][684]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 22 (  Trying 54.235.45.43:443...)
+[2025.08.21-18.27.51:020][684]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 23 (connect to 54.235.45.43 port 443 failed: Network unreachable)
+[2025.08.21-18.27.51:020][684]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 24 (  Trying 52.87.97.67:443...)
+[2025.08.21-18.27.51:020][684]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 25 (connect to 52.87.97.67 port 443 failed: Network unreachable)
+[2025.08.21-18.27.51:020][685]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 26 (  Trying 54.209.12.110:443...)
+[2025.08.21-18.27.51:020][685]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 27 (connect to 54.209.12.110 port 443 failed: Network unreachable)
+[2025.08.21-18.27.51:020][685]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 28 (  Trying 52.20.149.62:443...)
+[2025.08.21-18.27.51:020][685]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 29 (connect to 52.20.149.62 port 443 failed: Network unreachable)
+[2025.08.21-18.27.51:020][685]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 30 (  Trying 13.223.127.134:443...)
+[2025.08.21-18.27.51:020][685]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 31 (connect to 13.223.127.134 port 443 failed: Network unreachable)
+[2025.08.21-18.27.51:020][685]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 32 (  Trying 3.229.223.71:443...)
+[2025.08.21-18.27.51:020][685]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 33 (connect to 3.229.223.71 port 443 failed: Network unreachable)
+[2025.08.21-18.27.51:020][685]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 34 (  Trying 18.232.252.171:443...)
+[2025.08.21-18.27.51:020][685]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 35 (connect to 18.232.252.171 port 443 failed: Network unreachable)
+[2025.08.21-18.27.51:020][685]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 36 (Failed to connect to api.epicgames.dev port 443 after 73 ms: Couldn't connect to server)
+[2025.08.21-18.27.51:020][685]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 37 (Closing connection)
+[2025.08.21-18.27.51:020][685]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/epic/oauth/v2/tokenInfo
+[2025.08.21-18.27.51:352][685]LogEOSSDK: Error: LogEOSAuth: Ignoring failed attempt to verify active authentication session due to an unexpected error. Error: EOS_OperationWillRetry UserId: c12...1d3
+[2025.08.21-18.27.52:354][688]LogEOSSDK: Warning: LogHttp: Retry 2 on https://api.epicgames.dev/epic/oauth/v2/tokenInfo
+[2025.08.21-18.27.52:686][689]LogEOSSDK: Warning: LogHttp: 0000078104923600: invalid HTTP response code received. URL: https://api.epicgames.dev/epic/oauth/v2/tokenInfo, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.08.21-18.27.52:686][689]LogEOSSDK: Warning: LogHttp: 0000078104923600: request failed, libcurl error: 7 (Couldn't connect to server)
+[2025.08.21-18.27.52:686][689]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 38 (Hostname api.epicgames.dev was found in DNS cache)
+[2025.08.21-18.27.52:686][689]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 39 (  Trying 34.205.244.117:443...)
+[2025.08.21-18.27.52:686][689]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 40 (connect to 34.205.244.117 port 443 failed: Network unreachable)
+[2025.08.21-18.27.52:686][689]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 41 (  Trying 54.235.45.43:443...)
+[2025.08.21-18.27.52:686][689]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 42 (connect to 54.235.45.43 port 443 failed: Network unreachable)
+[2025.08.21-18.27.52:686][689]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 43 (  Trying 52.87.97.67:443...)
+[2025.08.21-18.27.52:687][689]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 44 (connect to 52.87.97.67 port 443 failed: Network unreachable)
+[2025.08.21-18.27.52:687][689]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 45 (  Trying 54.209.12.110:443...)
+[2025.08.21-18.27.52:687][689]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 46 (connect to 54.209.12.110 port 443 failed: Network unreachable)
+[2025.08.21-18.27.52:687][690]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 47 (  Trying 52.20.149.62:443...)
+[2025.08.21-18.27.52:687][690]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 48 (connect to 52.20.149.62 port 443 failed: Network unreachable)
+[2025.08.21-18.27.52:687][690]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 49 (  Trying 13.223.127.134:443...)
+[2025.08.21-18.27.52:687][690]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 0 (connect to 13.223.127.134 port 443 failed: Network unreachable)
+[2025.08.21-18.27.52:687][690]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 1 (  Trying 3.229.223.71:443...)
+[2025.08.21-18.27.52:687][690]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 2 (connect to 3.229.223.71 port 443 failed: Network unreachable)
+[2025.08.21-18.27.52:687][690]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 3 (  Trying 18.232.252.171:443...)
+[2025.08.21-18.27.52:687][690]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 4 (connect to 18.232.252.171 port 443 failed: Network unreachable)
+[2025.08.21-18.27.52:687][690]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 5 (Failed to connect to api.epicgames.dev port 443 after 70 ms: Couldn't connect to server)
+[2025.08.21-18.27.52:687][690]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 6 (Closing connection)
+[2025.08.21-18.27.52:687][690]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/epic/oauth/v2/tokenInfo
+[2025.08.21-18.27.53:019][690]LogEOSSDK: Error: LogEOSAuth: Ignoring failed attempt to verify active authentication session due to an unexpected error. Error: EOS_OperationWillRetry UserId: c12...1d3
+[2025.08.21-18.27.54:019][693]LogEOSSDK: Warning: LogHttp: Retry 3 on https://api.epicgames.dev/epic/oauth/v2/tokenInfo
+[2025.08.21-18.27.54:353][694]LogEOSSDK: Warning: LogHttp: 0000078104923600: invalid HTTP response code received. URL: https://api.epicgames.dev/epic/oauth/v2/tokenInfo, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.08.21-18.27.54:353][694]LogEOSSDK: Warning: LogHttp: 0000078104923600: request failed, libcurl error: 7 (Couldn't connect to server)
+[2025.08.21-18.27.54:353][694]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 7 (Hostname api.epicgames.dev was found in DNS cache)
+[2025.08.21-18.27.54:353][694]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 8 (  Trying 34.205.244.117:443...)
+[2025.08.21-18.27.54:353][694]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 9 (connect to 34.205.244.117 port 443 failed: Network unreachable)
+[2025.08.21-18.27.54:353][694]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 10 (  Trying 54.235.45.43:443...)
+[2025.08.21-18.27.54:353][694]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 11 (connect to 54.235.45.43 port 443 failed: Network unreachable)
+[2025.08.21-18.27.54:353][694]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 12 (  Trying 52.87.97.67:443...)
+[2025.08.21-18.27.54:353][694]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 13 (connect to 52.87.97.67 port 443 failed: Network unreachable)
+[2025.08.21-18.27.54:353][694]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 14 (  Trying 54.209.12.110:443...)
+[2025.08.21-18.27.54:353][695]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 15 (connect to 54.209.12.110 port 443 failed: Network unreachable)
+[2025.08.21-18.27.54:353][695]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 16 (  Trying 52.20.149.62:443...)
+[2025.08.21-18.27.54:353][695]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 17 (connect to 52.20.149.62 port 443 failed: Network unreachable)
+[2025.08.21-18.27.54:353][695]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 18 (  Trying 13.223.127.134:443...)
+[2025.08.21-18.27.54:353][695]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 19 (connect to 13.223.127.134 port 443 failed: Network unreachable)
+[2025.08.21-18.27.54:353][695]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 20 (  Trying 3.229.223.71:443...)
+[2025.08.21-18.27.54:353][695]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 21 (connect to 3.229.223.71 port 443 failed: Network unreachable)
+[2025.08.21-18.27.54:353][695]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 22 (  Trying 18.232.252.171:443...)
+[2025.08.21-18.27.54:353][695]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 23 (connect to 18.232.252.171 port 443 failed: Network unreachable)
+[2025.08.21-18.27.54:353][695]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 24 (Failed to connect to api.epicgames.dev port 443 after 74 ms: Couldn't connect to server)
+[2025.08.21-18.27.54:353][695]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 25 (Closing connection)
+[2025.08.21-18.27.54:353][695]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/epic/oauth/v2/tokenInfo
+[2025.08.21-18.27.54:687][695]LogEOSSDK: Error: LogEOSAuth: Ignoring failed attempt to verify active authentication session due to an unexpected error. Error: EOS_OperationWillRetry UserId: c12...1d3
+[2025.08.21-18.27.55:353][697]LogEOSSDK: Warning: LogHttp: Retry 4 on https://api.epicgames.dev/epic/oauth/v2/tokenInfo
+[2025.08.21-18.27.55:688][698]LogEOSSDK: Warning: LogHttp: 0000078104923600: invalid HTTP response code received. URL: https://api.epicgames.dev/epic/oauth/v2/tokenInfo, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.08.21-18.27.55:688][698]LogEOSSDK: Warning: LogHttp: 0000078104923600: request failed, libcurl error: 7 (Couldn't connect to server)
+[2025.08.21-18.27.55:688][698]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 26 (Hostname api.epicgames.dev was found in DNS cache)
+[2025.08.21-18.27.55:688][698]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 27 (  Trying 34.205.244.117:443...)
+[2025.08.21-18.27.55:688][698]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 28 (connect to 34.205.244.117 port 443 failed: Network unreachable)
+[2025.08.21-18.27.55:688][698]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 29 (  Trying 54.235.45.43:443...)
+[2025.08.21-18.27.55:688][698]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 30 (connect to 54.235.45.43 port 443 failed: Network unreachable)
+[2025.08.21-18.27.55:688][698]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 31 (  Trying 52.87.97.67:443...)
+[2025.08.21-18.27.55:688][699]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 32 (connect to 52.87.97.67 port 443 failed: Network unreachable)
+[2025.08.21-18.27.55:688][699]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 33 (  Trying 54.209.12.110:443...)
+[2025.08.21-18.27.55:688][699]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 34 (connect to 54.209.12.110 port 443 failed: Network unreachable)
+[2025.08.21-18.27.55:688][699]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 35 (  Trying 52.20.149.62:443...)
+[2025.08.21-18.27.55:688][699]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 36 (connect to 52.20.149.62 port 443 failed: Network unreachable)
+[2025.08.21-18.27.55:688][699]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 37 (  Trying 13.223.127.134:443...)
+[2025.08.21-18.27.55:688][699]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 38 (connect to 13.223.127.134 port 443 failed: Network unreachable)
+[2025.08.21-18.27.55:688][699]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 39 (  Trying 3.229.223.71:443...)
+[2025.08.21-18.27.55:688][699]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 40 (connect to 3.229.223.71 port 443 failed: Network unreachable)
+[2025.08.21-18.27.55:688][699]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 41 (  Trying 18.232.252.171:443...)
+[2025.08.21-18.27.55:688][699]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 42 (connect to 18.232.252.171 port 443 failed: Network unreachable)
+[2025.08.21-18.27.55:688][699]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 43 (Failed to connect to api.epicgames.dev port 443 after 71 ms: Couldn't connect to server)
+[2025.08.21-18.27.55:688][699]LogEOSSDK: Warning: LogHttp: 0000078104923600: libcurl info message cache 44 (Closing connection)
+[2025.08.21-18.27.55:688][699]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/epic/oauth/v2/tokenInfo
+[2025.08.21-18.27.55:688][699]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[OAuth], OperationName=[TokenInfov2], Url=[<Redacted>]
+[2025.08.21-18.27.56:021][699]LogEOSSDK: Error: LogEOSAuth: Ignoring failed attempt to verify active authentication session due to an unexpected error. Error: EOS_NoConnection UserId: c12...1d3
+[2025.08.21-18.28.03:688][722]LogEOSSDK: Warning: LogHttp: 0000078104921200: invalid HTTP response code received. URL: https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BF9BFBE83-4DCB-0A29-B2FB-5CA63D71453B%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.17.0-39599718%20-%20%2B%2BEOSSDK%2BRelease-1.17.0-CL-39599718&UserID=&AppEnvironment=Production&UploadType=sdkevents, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.08.21-18.28.03:688][722]LogEOSSDK: Warning: LogHttp: 0000078104921200: request failed, libcurl error: 7 (Couldn't connect to server)
+[2025.08.21-18.28.03:688][722]LogEOSSDK: Warning: LogHttp: 0000078104921200: libcurl info message cache 0 (Hostname api.epicgames.dev was found in DNS cache)
+[2025.08.21-18.28.03:688][722]LogEOSSDK: Warning: LogHttp: 0000078104921200: libcurl info message cache 1 (  Trying 34.205.244.117:443...)
+[2025.08.21-18.28.03:688][722]LogEOSSDK: Warning: LogHttp: 0000078104921200: libcurl info message cache 2 (connect to 34.205.244.117 port 443 failed: Network unreachable)
+[2025.08.21-18.28.03:688][722]LogEOSSDK: Warning: LogHttp: 0000078104921200: libcurl info message cache 3 (  Trying 54.235.45.43:443...)
+[2025.08.21-18.28.03:688][722]LogEOSSDK: Warning: LogHttp: 0000078104921200: libcurl info message cache 4 (connect to 54.235.45.43 port 443 failed: Network unreachable)
+[2025.08.21-18.28.03:688][722]LogEOSSDK: Warning: LogHttp: 0000078104921200: libcurl info message cache 5 (  Trying 52.87.97.67:443...)
+[2025.08.21-18.28.03:688][722]LogEOSSDK: Warning: LogHttp: 0000078104921200: libcurl info message cache 6 (connect to 52.87.97.67 port 443 failed: Network unreachable)
+[2025.08.21-18.28.03:688][722]LogEOSSDK: Warning: LogHttp: 0000078104921200: libcurl info message cache 7 (  Trying 54.209.12.110:443...)
+[2025.08.21-18.28.03:688][722]LogEOSSDK: Warning: LogHttp: 0000078104921200: libcurl info message cache 8 (connect to 54.209.12.110 port 443 failed: Network unreachable)
+[2025.08.21-18.28.03:688][722]LogEOSSDK: Warning: LogHttp: 0000078104921200: libcurl info message cache 9 (  Trying 52.20.149.62:443...)
+[2025.08.21-18.28.03:688][722]LogEOSSDK: Warning: LogHttp: 0000078104921200: libcurl info message cache 10 (connect to 52.20.149.62 port 443 failed: Network unreachable)
+[2025.08.21-18.28.03:688][723]LogEOSSDK: Warning: LogHttp: 0000078104921200: libcurl info message cache 11 (  Trying 13.223.127.134:443...)
+[2025.08.21-18.28.03:688][723]LogEOSSDK: Warning: LogHttp: 0000078104921200: libcurl info message cache 12 (connect to 13.223.127.134 port 443 failed: Network unreachable)
+[2025.08.21-18.28.03:688][723]LogEOSSDK: Warning: LogHttp: 0000078104921200: libcurl info message cache 13 (  Trying 3.229.223.71:443...)
+[2025.08.21-18.28.03:688][723]LogEOSSDK: Warning: LogHttp: 0000078104921200: libcurl info message cache 14 (connect to 3.229.223.71 port 443 failed: Network unreachable)
+[2025.08.21-18.28.03:688][723]LogEOSSDK: Warning: LogHttp: 0000078104921200: libcurl info message cache 15 (  Trying 18.232.252.171:443...)
+[2025.08.21-18.28.03:688][723]LogEOSSDK: Warning: LogHttp: 0000078104921200: libcurl info message cache 16 (connect to 18.232.252.171 port 443 failed: Network unreachable)
+[2025.08.21-18.28.03:688][723]LogEOSSDK: Warning: LogHttp: 0000078104921200: libcurl info message cache 17 (Failed to connect to api.epicgames.dev port 443 after 71 ms: Couldn't connect to server)
+[2025.08.21-18.28.03:688][723]LogEOSSDK: Warning: LogHttp: 0000078104921200: libcurl info message cache 18 (Closing connection)
+[2025.08.21-18.28.03:688][723]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BF9BFBE83-4DCB-0A29-B2FB-5CA63D71453B%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.17.0-39599718%20-%20%2B%2BEOSSDK%2BRelease-1.17.0-CL-39599718&UserID=&AppEnvironment=Production&UploadType=sdkevents
+[2025.08.21-18.28.04:021][723]LogHttp: Warning: 0000078107D3A100: request failed, libcurl error: 7 (Couldn't connect to server)
+[2025.08.21-18.28.04:021][723]LogHttp: Warning: 0000078107D3A100: libcurl info message cache 0 (Hostname datarouter.ol.epicgames.com was found in DNS cache)
+[2025.08.21-18.28.04:021][723]LogHttp: Warning: 0000078107D3A100: libcurl info message cache 1 (  Trying 52.54.129.186:443...)
+[2025.08.21-18.28.04:021][723]LogHttp: Warning: 0000078107D3A100: libcurl info message cache 2 (connect to 52.54.129.186 port 443 failed: Network unreachable)
+[2025.08.21-18.28.04:021][723]LogHttp: Warning: 0000078107D3A100: libcurl info message cache 3 (  Trying 100.24.247.27:443...)
+[2025.08.21-18.28.04:021][723]LogHttp: Warning: 0000078107D3A100: libcurl info message cache 4 (connect to 100.24.247.27 port 443 failed: Network unreachable)
+[2025.08.21-18.28.04:021][723]LogHttp: Warning: 0000078107D3A100: libcurl info message cache 5 (  Trying 44.205.209.132:443...)
+[2025.08.21-18.28.04:021][723]LogHttp: Warning: 0000078107D3A100: libcurl info message cache 6 (connect to 44.205.209.132 port 443 failed: Network unreachable)
+[2025.08.21-18.28.04:021][723]LogHttp: Warning: 0000078107D3A100: libcurl info message cache 7 (  Trying 50.19.125.65:443...)
+[2025.08.21-18.28.04:021][723]LogHttp: Warning: 0000078107D3A100: libcurl info message cache 8 (connect to 50.19.125.65 port 443 failed: Network unreachable)
+[2025.08.21-18.28.04:021][723]LogHttp: Warning: 0000078107D3A100: libcurl info message cache 9 (  Trying 52.203.187.122:443...)
+[2025.08.21-18.28.04:021][723]LogHttp: Warning: 0000078107D3A100: libcurl info message cache 10 (connect to 52.203.187.122 port 443 failed: Network unreachable)
+[2025.08.21-18.28.04:021][723]LogHttp: Warning: 0000078107D3A100: libcurl info message cache 11 (  Trying 44.206.33.249:443...)
+[2025.08.21-18.28.04:021][723]LogHttp: Warning: 0000078107D3A100: libcurl info message cache 12 (connect to 44.206.33.249 port 443 failed: Network unreachable)
+[2025.08.21-18.28.04:021][724]LogHttp: Warning: 0000078107D3A100: libcurl info message cache 13 (  Trying 52.23.30.142:443...)
+[2025.08.21-18.28.04:021][724]LogHttp: Warning: 0000078107D3A100: libcurl info message cache 14 (connect to 52.23.30.142 port 443 failed: Network unreachable)
+[2025.08.21-18.28.04:021][724]LogHttp: Warning: 0000078107D3A100: libcurl info message cache 15 (  Trying 52.54.94.64:443...)
+[2025.08.21-18.28.04:021][724]LogHttp: Warning: 0000078107D3A100: libcurl info message cache 16 (connect to 52.54.94.64 port 443 failed: Network unreachable)
+[2025.08.21-18.28.04:021][724]LogHttp: Warning: 0000078107D3A100: libcurl info message cache 17 (Failed to connect to datarouter.ol.epicgames.com port 443 after 21 ms: Couldn't connect to server)
+[2025.08.21-18.28.04:021][724]LogHttp: Warning: 0000078107D3A100: libcurl info message cache 18 (Closing connection)
+[2025.08.21-18.29.15:365][937]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1332.283081
+[2025.08.21-18.29.17:032][942]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.21-18.29.17:033][942]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1333.616821, Update Interval: 342.390198
+[2025.08.21-18.30.23:043][140]LogHttp: Warning: 0000078107D37700: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.08.21-18.30.23:043][140]LogHttp: Warning: 0000078107D37700: libcurl info message cache 0 (Found bundle for host: 0x7808c840870 [serially])
+[2025.08.21-18.30.23:043][140]LogHttp: Warning: 0000078107D37700: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2025.08.21-18.30.23:043][140]LogHttp: Warning: 0000078107D37700: libcurl info message cache 2 (We are completely uploaded and fine)
+[2025.08.21-18.30.23:043][140]LogHttp: Warning: 0000078107D37700: libcurl info message cache 3 (Recv failure: Connection was reset)
+[2025.08.21-18.30.23:043][140]LogHttp: Warning: 0000078107D37700: libcurl info message cache 4 (OpenSSL SSL_read: Connection was reset, errno 10054)
+[2025.08.21-18.30.23:043][140]LogHttp: Warning: 0000078107D37700: libcurl info message cache 5 (Connection died, retrying a fresh connect (retry count: 1))
+[2025.08.21-18.30.23:043][140]LogHttp: Warning: 0000078107D37700: libcurl info message cache 6 (state.rewindbeforesend = TRUE)
+[2025.08.21-18.30.23:043][140]LogHttp: Warning: 0000078107D37700: libcurl info message cache 7 (Closing connection)
+[2025.08.21-18.30.23:043][140]LogHttp: Warning: 0000078107D37700: libcurl info message cache 8 (Recv failure: Connection was reset)
+[2025.08.21-18.30.23:043][140]LogHttp: Warning: 0000078107D37700: libcurl info message cache 9 (Send failure: Connection was reset)
+[2025.08.21-18.30.23:043][140]LogHttp: Warning: 0000078107D37700: libcurl info message cache 10 (Recv failure: Connection was reset)
+[2025.08.21-18.30.23:043][140]LogHttp: Warning: 0000078107D37700: libcurl info message cache 11 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B73C7BAE6-4828-384D-10AE-EA9C6F5062AB%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.5.4-40574608%2B%2B%2BUE5%2BRelease-5.5&UserID=4301ae3746a2d0658f1ea7896f47e70a%7Cc125afadbc1d4a4ca07801b3c9fe31d3%7C6fc62dfd-3999-4e0c-9721-f0aa7ad24bd8&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2025.08.21-18.30.23:043][141]LogHttp: Warning: 0000078107D37700: libcurl info message cache 12 (Could not resolve host: datarouter.ol.epicgames.com)
+[2025.08.21-18.30.23:043][141]LogHttp: Warning: 0000078107D37700: libcurl info message cache 13 (Closing connection)
+[2025.08.21-18.30.27:046][152]LogEOSSDK: Warning: LogHttp: 0000078104926C00: invalid HTTP response code received. URL: https://api.epicgames.dev/epic/oauth/v2/tokenInfo, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.08.21-18.30.27:046][152]LogEOSSDK: Warning: LogHttp: 0000078104926C00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.08.21-18.30.27:046][152]LogEOSSDK: Warning: LogHttp: 0000078104926C00: libcurl info message cache 0 (Found bundle for host: 0x78104080b10 [serially])
+[2025.08.21-18.30.27:046][152]LogEOSSDK: Warning: LogHttp: 0000078104926C00: libcurl info message cache 1 (Re-using existing connection with host api.epicgames.dev)
+[2025.08.21-18.30.27:046][152]LogEOSSDK: Warning: LogHttp: 0000078104926C00: libcurl info message cache 2 (We are completely uploaded and fine)
+[2025.08.21-18.30.27:046][152]LogEOSSDK: Warning: LogHttp: 0000078104926C00: libcurl info message cache 3 (Recv failure: Connection was reset)
+[2025.08.21-18.30.27:046][153]LogEOSSDK: Warning: LogHttp: 0000078104926C00: libcurl info message cache 4 (OpenSSL SSL_read: Connection was reset, errno 10054)
+[2025.08.21-18.30.27:046][153]LogEOSSDK: Warning: LogHttp: 0000078104926C00: libcurl info message cache 5 (Connection died, retrying a fresh connect (retry count: 1))
+[2025.08.21-18.30.27:046][153]LogEOSSDK: Warning: LogHttp: 0000078104926C00: libcurl info message cache 6 (state.rewindbeforesend = TRUE)
+[2025.08.21-18.30.27:046][153]LogEOSSDK: Warning: LogHttp: 0000078104926C00: libcurl info message cache 7 (Closing connection)
+[2025.08.21-18.30.27:046][153]LogEOSSDK: Warning: LogHttp: 0000078104926C00: libcurl info message cache 8 (Recv failure: Connection was reset)
+[2025.08.21-18.30.27:046][153]LogEOSSDK: Warning: LogHttp: 0000078104926C00: libcurl info message cache 9 (Send failure: Connection was reset)
+[2025.08.21-18.30.27:046][153]LogEOSSDK: Warning: LogHttp: 0000078104926C00: libcurl info message cache 10 (Recv failure: Connection was reset)
+[2025.08.21-18.30.27:046][153]LogEOSSDK: Warning: LogHttp: 0000078104926C00: libcurl info message cache 11 (Issue another request to this URL: 'https://api.epicgames.dev/epic/oauth/v2/tokenInfo')
+[2025.08.21-18.30.27:046][153]LogEOSSDK: Warning: LogHttp: 0000078104926C00: libcurl info message cache 12 (Found bundle for host: 0x78104080b10 [serially])
+[2025.08.21-18.30.27:046][153]LogEOSSDK: Warning: LogHttp: 0000078104926C00: libcurl info message cache 13 (Could not resolve host: api.epicgames.dev)
+[2025.08.21-18.30.27:046][153]LogEOSSDK: Warning: LogHttp: 0000078104926C00: libcurl info message cache 14 (Closing connection)
+[2025.08.21-18.30.27:046][153]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/epic/oauth/v2/tokenInfo
+[2025.08.21-18.30.27:380][153]LogEOSSDK: Error: LogEOSAuth: Ignoring failed attempt to verify active authentication session due to an unexpected error. Error: EOS_OperationWillRetry UserId: c12...1d3
+[2025.08.21-18.30.28:380][156]LogEOSSDK: Warning: LogHttp: Retry 1 on https://api.epicgames.dev/epic/oauth/v2/tokenInfo
+[2025.08.21-18.30.28:713][157]LogEOSSDK: Warning: LogHttp: 0000078104926C00: invalid HTTP response code received. URL: https://api.epicgames.dev/epic/oauth/v2/tokenInfo, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.08.21-18.30.28:713][158]LogEOSSDK: Warning: LogHttp: 0000078104926C00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.08.21-18.30.28:713][158]LogEOSSDK: Warning: LogHttp: 0000078104926C00: libcurl info message cache 15 (Found bundle for host: 0x78104080b10 [serially])
+[2025.08.21-18.30.28:713][158]LogEOSSDK: Warning: LogHttp: 0000078104926C00: libcurl info message cache 16 (Could not resolve host: api.epicgames.dev)
+[2025.08.21-18.30.28:714][158]LogEOSSDK: Warning: LogHttp: 0000078104926C00: libcurl info message cache 17 (Closing connection)
+[2025.08.21-18.30.28:714][158]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/epic/oauth/v2/tokenInfo
+[2025.08.21-18.30.29:046][158]LogEOSSDK: Error: LogEOSAuth: Ignoring failed attempt to verify active authentication session due to an unexpected error. Error: EOS_OperationWillRetry UserId: c12...1d3
+[2025.08.21-18.30.30:046][161]LogEOSSDK: Warning: LogHttp: Retry 2 on https://api.epicgames.dev/epic/oauth/v2/tokenInfo
+[2025.08.21-18.30.30:379][162]LogEOSSDK: Warning: LogHttp: 0000078104926C00: invalid HTTP response code received. URL: https://api.epicgames.dev/epic/oauth/v2/tokenInfo, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.08.21-18.30.30:379][162]LogEOSSDK: Warning: LogHttp: 0000078104926C00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.08.21-18.30.30:379][163]LogEOSSDK: Warning: LogHttp: 0000078104926C00: libcurl info message cache 18 (Found bundle for host: 0x78104080b10 [serially])
+[2025.08.21-18.30.30:379][163]LogEOSSDK: Warning: LogHttp: 0000078104926C00: libcurl info message cache 19 (Could not resolve host: api.epicgames.dev)
+[2025.08.21-18.30.30:379][163]LogEOSSDK: Warning: LogHttp: 0000078104926C00: libcurl info message cache 20 (Closing connection)
+[2025.08.21-18.30.30:379][163]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/epic/oauth/v2/tokenInfo
+[2025.08.21-18.30.30:713][163]LogEOSSDK: Error: LogEOSAuth: Ignoring failed attempt to verify active authentication session due to an unexpected error. Error: EOS_OperationWillRetry UserId: c12...1d3
+[2025.08.21-18.30.31:380][165]LogEOSSDK: Warning: LogHttp: Retry 3 on https://api.epicgames.dev/epic/oauth/v2/tokenInfo
+[2025.08.21-18.30.31:713][166]LogEOSSDK: Warning: LogHttp: 0000078104926C00: invalid HTTP response code received. URL: https://api.epicgames.dev/epic/oauth/v2/tokenInfo, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.08.21-18.30.31:713][166]LogEOSSDK: Warning: LogHttp: 0000078104926C00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.08.21-18.30.31:713][167]LogEOSSDK: Warning: LogHttp: 0000078104926C00: libcurl info message cache 21 (Found bundle for host: 0x78104080b10 [serially])
+[2025.08.21-18.30.31:713][167]LogEOSSDK: Warning: LogHttp: 0000078104926C00: libcurl info message cache 22 (Could not resolve host: api.epicgames.dev)
+[2025.08.21-18.30.31:713][167]LogEOSSDK: Warning: LogHttp: 0000078104926C00: libcurl info message cache 23 (Closing connection)
+[2025.08.21-18.30.31:713][167]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/epic/oauth/v2/tokenInfo
+[2025.08.21-18.30.32:047][167]LogEOSSDK: Error: LogEOSAuth: Ignoring failed attempt to verify active authentication session due to an unexpected error. Error: EOS_OperationWillRetry UserId: c12...1d3
+[2025.08.21-18.30.32:713][169]LogEOSSDK: Warning: LogHttp: Retry 4 on https://api.epicgames.dev/epic/oauth/v2/tokenInfo
+[2025.08.21-18.30.33:047][170]LogEOSSDK: Warning: LogHttp: 0000078104926C00: invalid HTTP response code received. URL: https://api.epicgames.dev/epic/oauth/v2/tokenInfo, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.08.21-18.30.33:047][171]LogEOSSDK: Warning: LogHttp: 0000078104926C00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.08.21-18.30.33:047][171]LogEOSSDK: Warning: LogHttp: 0000078104926C00: libcurl info message cache 24 (Found bundle for host: 0x78104080b10 [serially])
+[2025.08.21-18.30.33:047][171]LogEOSSDK: Warning: LogHttp: 0000078104926C00: libcurl info message cache 25 (Could not resolve host: api.epicgames.dev)
+[2025.08.21-18.30.33:047][171]LogEOSSDK: Warning: LogHttp: 0000078104926C00: libcurl info message cache 26 (Closing connection)
+[2025.08.21-18.30.33:047][171]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/epic/oauth/v2/tokenInfo
+[2025.08.21-18.30.33:047][171]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[OAuth], OperationName=[TokenInfov2], Url=[<Redacted>]
+[2025.08.21-18.30.33:380][171]LogEOSSDK: Error: LogEOSAuth: Ignoring failed attempt to verify active authentication session due to an unexpected error. Error: EOS_NoConnection UserId: c12...1d3
+[2025.08.21-18.30.42:382][198]LogEOSSDK: Warning: LogHttp: 0000078104929000: invalid HTTP response code received. URL: https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BF9BFBE83-4DCB-0A29-B2FB-5CA63D71453B%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.17.0-39599718%20-%20%2B%2BEOSSDK%2BRelease-1.17.0-CL-39599718&UserID=&AppEnvironment=Production&UploadType=sdkevents, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.08.21-18.30.42:382][198]LogEOSSDK: Warning: LogHttp: 0000078104929000: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.08.21-18.30.42:382][198]LogEOSSDK: Warning: LogHttp: 0000078104929000: libcurl info message cache 0 (Found bundle for host: 0x78104080b10 [serially])
+[2025.08.21-18.30.42:382][198]LogEOSSDK: Warning: LogHttp: 0000078104929000: libcurl info message cache 1 (Re-using existing connection with host api.epicgames.dev)
+[2025.08.21-18.30.42:382][198]LogEOSSDK: Warning: LogHttp: 0000078104929000: libcurl info message cache 2 (We are completely uploaded and fine)
+[2025.08.21-18.30.42:382][198]LogEOSSDK: Warning: LogHttp: 0000078104929000: libcurl info message cache 3 (Recv failure: Connection was reset)
+[2025.08.21-18.30.42:382][198]LogEOSSDK: Warning: LogHttp: 0000078104929000: libcurl info message cache 4 (OpenSSL SSL_read: Connection was reset, errno 10054)
+[2025.08.21-18.30.42:382][199]LogEOSSDK: Warning: LogHttp: 0000078104929000: libcurl info message cache 5 (Connection died, retrying a fresh connect (retry count: 1))
+[2025.08.21-18.30.42:382][199]LogEOSSDK: Warning: LogHttp: 0000078104929000: libcurl info message cache 6 (state.rewindbeforesend = TRUE)
+[2025.08.21-18.30.42:382][199]LogEOSSDK: Warning: LogHttp: 0000078104929000: libcurl info message cache 7 (Closing connection)
+[2025.08.21-18.30.42:382][199]LogEOSSDK: Warning: LogHttp: 0000078104929000: libcurl info message cache 8 (Recv failure: Connection was reset)
+[2025.08.21-18.30.42:382][199]LogEOSSDK: Warning: LogHttp: 0000078104929000: libcurl info message cache 9 (Send failure: Connection was reset)
+[2025.08.21-18.30.42:382][199]LogEOSSDK: Warning: LogHttp: 0000078104929000: libcurl info message cache 10 (Recv failure: Connection was reset)
+[2025.08.21-18.30.42:382][199]LogEOSSDK: Warning: LogHttp: 0000078104929000: libcurl info message cache 11 (Issue another request to this URL: 'https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BF9BFBE83-4DCB-0A29-B2FB-5CA63D71453B%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.17.0-39599718%20-%20%2B%2BEOSSDK%2BRelease-1.17.0-CL-39599718&UserID=&AppEnvironment=Production&UploadType=sdkevents')
+[2025.08.21-18.30.42:382][199]LogEOSSDK: Warning: LogHttp: 0000078104929000: libcurl info message cache 12 (Found bundle for host: 0x78104080b10 [serially])
+[2025.08.21-18.30.42:382][199]LogEOSSDK: Warning: LogHttp: 0000078104929000: libcurl info message cache 13 (Re-using existing connection with host api.epicgames.dev)
+[2025.08.21-18.30.42:382][199]LogEOSSDK: Warning: LogHttp: 0000078104929000: libcurl info message cache 14 (We are completely uploaded and fine)
+[2025.08.21-18.30.42:382][199]LogEOSSDK: Warning: LogHttp: 0000078104929000: libcurl info message cache 15 (Recv failure: Connection was reset)
+[2025.08.21-18.30.42:382][199]LogEOSSDK: Warning: LogHttp: 0000078104929000: libcurl info message cache 16 (OpenSSL SSL_read: Connection was reset, errno 10054)
+[2025.08.21-18.30.42:382][199]LogEOSSDK: Warning: LogHttp: 0000078104929000: libcurl info message cache 17 (Connection died, retrying a fresh connect (retry count: 2))
+[2025.08.21-18.30.42:382][199]LogEOSSDK: Warning: LogHttp: 0000078104929000: libcurl info message cache 18 (state.rewindbeforesend = TRUE)
+[2025.08.21-18.30.42:382][199]LogEOSSDK: Warning: LogHttp: 0000078104929000: libcurl info message cache 19 (Closing connection)
+[2025.08.21-18.30.42:382][199]LogEOSSDK: Warning: LogHttp: 0000078104929000: libcurl info message cache 20 (Recv failure: Connection was reset)
+[2025.08.21-18.30.42:382][199]LogEOSSDK: Warning: LogHttp: 0000078104929000: libcurl info message cache 21 (Send failure: Connection was reset)
+[2025.08.21-18.30.42:382][199]LogEOSSDK: Warning: LogHttp: 0000078104929000: libcurl info message cache 22 (Recv failure: Connection was reset)
+[2025.08.21-18.30.42:382][199]LogEOSSDK: Warning: LogHttp: 0000078104929000: libcurl info message cache 23 (Issue another request to this URL: 'https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BF9BFBE83-4DCB-0A29-B2FB-5CA63D71453B%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.17.0-39599718%20-%20%2B%2BEOSSDK%2BRelease-1.17.0-CL-39599718&UserID=&AppEnvironment=Production&UploadType=sdkevents')
+[2025.08.21-18.30.42:382][199]LogEOSSDK: Warning: LogHttp: 0000078104929000: libcurl info message cache 24 (Could not resolve host: api.epicgames.dev)
+[2025.08.21-18.30.42:382][199]LogEOSSDK: Warning: LogHttp: 0000078104929000: libcurl info message cache 25 (Closing connection)
+[2025.08.21-18.30.42:382][199]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BF9BFBE83-4DCB-0A29-B2FB-5CA63D71453B%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.17.0-39599718%20-%20%2B%2BEOSSDK%2BRelease-1.17.0-CL-39599718&UserID=&AppEnvironment=Production&UploadType=sdkevents
+[2025.08.21-18.31.03:047][270]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_5
