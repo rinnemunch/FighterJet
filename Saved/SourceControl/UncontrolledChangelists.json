@@ -6,7 +6,8 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"C:/Unreal Projects/FIghterJetPortfolio/Content/Levels/Main.umap",
-				"C:/Unreal Projects/FIghterJetPortfolio/Content/Blueprints/BP_F18.uasset"
+				"C:/Unreal Projects/FIghterJetPortfolio/Content/Blueprints/BP_F18.uasset",
+				"C:/Unreal Projects/FIghterJetPortfolio/Content/Blueprints/BP_FighterJetGameMode.uasset"
 			]
 		}
 	]
