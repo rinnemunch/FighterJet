@@ -10,7 +10,8 @@
 				"C:/Unreal Projects/FIghterJetPortfolio/Content/Blueprints/BP_FighterJetGameMode.uasset",
 				"C:/Unreal Projects/FIghterJetPortfolio/Content/FighterJet/Blueprints/BP_F18.uasset",
 				"C:/Unreal Projects/FIghterJetPortfolio/Content/FighterJet/Blueprints/BP_FighterJetGameMode.uasset",
-				"C:/Unreal Projects/FIghterJetPortfolio/Content/FighterJet/Inputs/IMC_FighterJet.uasset"
+				"C:/Unreal Projects/FIghterJetPortfolio/Content/FighterJet/Inputs/IMC_FighterJet.uasset",
+				"C:/Unreal Projects/FIghterJetPortfolio/Content/FighterJet/Inputs/IA_LookAround.uasset"
 			]
 		}
 	]
